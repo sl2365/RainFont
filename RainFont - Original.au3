@@ -1,22 +1,9 @@
-;*****************************************
-; RainFont_x64.au3 updated by sl23
-; Original code supplied by JSMorley
-; Created with ISN AutoIt Studio v1.16
-; Compiled with AutoIt v3.3.16.1
-;*****************************************
-
+#RequireAdmin
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_icon=rF.ico
-#AutoIt3Wrapper_Res_Fileversion_First_Increment=Y	; AutoIncrement: Before (Y); After (N) compile. Default=N
-#AutoIt3Wrapper_Res_FileVersion_AutoIncrement=Y
-#AutoIt3Wrapper_Res_Fileversion=3.3.8.1
-#AutoIt3Wrapper_Res_ProductVersion=3.3.16.1
-#AutoIt3Wrapper_Res_Description=RainFont_x64
-#AutoIt3Wrapper_Res_LegalCopyright=sl23
-#AutoIt3Wrapper_UseX64=y
+#AutoIt3Wrapper_outfile=..\..\Addons\RainFont\RainFont.exe
+#AutoIt3Wrapper_UseUpx=n
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
-
-#RequireAdmin
 
 #include <Array.au3>
 #Include <Misc.au3>
@@ -534,3 +521,4 @@ Func _RH_FormatStringEllipsis($sString, $iNumChars)
     If $iLen <= $iNumChars Then Return $sString
     Return StringLeft($sString, $iNumChars - 3) & "..."
 EndFunc   ;==>_RH_FormatStringEllipsis
+
