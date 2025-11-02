@@ -1,5 +1,5 @@
 # RainFont
-##Description by JSMorley:
+## Description by JSMorley:
 
 RainFont will scan all your TrueType fonts installed in Windows, and when you click on one will provide important information, especially the all-important FontFace=xxxx settting you need to use in meters in your skins. Remember, Rainmeter wants the "Family Name" of the font, not the "Font Name" displayed in Windows. RainFont will find and provide the correct Family Name to use in FontFace=.
 
